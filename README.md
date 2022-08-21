@@ -6,12 +6,12 @@
 _We are going to create the following __API___:
 
 | _URL_ Endpoint                  | #Description              | #Request body	 | #Response body	      |
-| ------------------------------- | ------------------------- | -------------  | -------------------  |
-|`GET /api/todoitems`             |  Get all to-do items      |  _None_        | Array of to-do items | 
-|`GET /api/todoitems/{id}`        |  Get all to-do item by`id`|  _None_      	 | To-do items          | 
-|`POST /api/todoitems`            |  Add a new item           |  To-do item    | To-do items          | 
-!`PUT /api/todoitems/{id}`        |	 Edit an existing item    |  To-do item  	 |  _None_              | 
-|`DELETE /api/todoitems/{id}  `   |  Delet a to-do items      |  _None_      	 |  _None_              | 
+| ------------------------------- | ------------------------- | -------------  | -------------------      |
+|`GET /api/todoitems`             |  Get all to-do items      |  _None_        | Array of to-do items     |  
+|`GET /api/todoitems/{id}`        |  Get all to-do item by`id`|  _None_      	 | To-do items            | 
+|`POST /api/todoitems`            |  Add a new item           |  To-do item    | To-do items              | 
+!`PUT /api/todoitems/{id}`        |	 Edit an existing item    |  To-do item  	 |  _None_                | 
+|`DELETE /api/todoitems/{id}  `   |  Delet a to-do items      |  _None_      	 |  _None_                | 
 
 
 
@@ -31,3 +31,19 @@ namespace To_Do_HandsOnAPIS.Models
 }
 
 ```
+
+
+## Scaffolding in controller
+
+##### Steps to follow
+
+- Right-click the Controllers folder.
+
+- Select Add > New Scaffolded Item.
+
+- Select API Controller with actions, using Entity Framework, and then select Add.
+
+- In the Add API Controller with actions, using Entity Framework dialog:
+    - Select TodoItem (TodoApi.Models) in the Model class.
+    - Select TodoContext (TodoApi.Models) in the Data context class.
+    - Select Add.
