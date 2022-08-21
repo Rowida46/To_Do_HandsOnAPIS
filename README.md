@@ -12,7 +12,6 @@ _We are going to create the following __API___:
 |`POST /api/todoitems`            |  Add a new item           |  To-do item    | To-do items          | 
 !`PUT /api/todoitems/{id}`        |	 Edit an existing item    |  To-do item  	 |  _None_              | 
 |`DELETE /api/todoitems/{id}  `   |  Delet a to-do items      |  _None_      	 |  _None_              | 
-| ------------------------------- | ------------------------- | -------------  | -------------------  |
 
 
 
