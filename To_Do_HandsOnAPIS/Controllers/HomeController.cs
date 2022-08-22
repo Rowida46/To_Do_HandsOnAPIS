@@ -13,8 +13,10 @@ namespace To_Do_HandsOnAPIS.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        Context context;
+        public HomeController(ILogger<HomeController> logger, Context _context)
         {
+            context = _context;
             _logger = logger;
         }
 

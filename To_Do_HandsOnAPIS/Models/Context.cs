@@ -7,7 +7,7 @@ namespace To_Do_HandsOnAPIS.Models
         public Context(DbContextOptions options
             ) : base(options){}
 
-       DbSet<ToDoItem> ToDoItems { get; set; }
+       public DbSet<ToDoItem> ToDoItems { get; set; }
 
 
     }
